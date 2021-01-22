@@ -34,7 +34,8 @@ age_box = Entry(windows, textvariable=age)
 label_sex = Label(windows, text='Sex: ')
 sex_box = Entry(windows, textvariable=sex)
 
-button1 = Button(windows, text='custom hi', command=sayhi)
+button1 = Button(windows, text='custom hi')
+button1.configure(command=sayhi)
 
 ############################################
 label1.place(x=10, y=10)

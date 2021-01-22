@@ -35,6 +35,7 @@ label_one.grid(row=3, column=2)
 label_two.grid(row=4, column=2)
 button_exit.grid(row=5, column=3)
 
+print('this is a sample')
 # button_two.pack(side=RIGHT)
 # button_one.pack(side=LEFT)
 # label_one.pack(side=RIGHT)
